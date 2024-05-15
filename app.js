@@ -42,8 +42,12 @@ class Calculator {
         break;
       case "*":
         evaluated = prev * curr;
+        break;
       case "÷":
         evaluated = prev / curr;
+        break;
+      default:
+        return;
     }
     this.CurrentOperand = evaluated;
     this.operation = undefined;
