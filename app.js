@@ -25,8 +25,8 @@ class Calculator {
     if (this.CurrentOperand !== "") {
       this.evaluate();
     }
-    this.operation = operation; 
-    this.PreviousOperand = this.CurrentOperand + this.operation
+    this.operation = operation;
+    this.PreviousOperand = this.CurrentOperand + this.operation;
     this.CurrentOperand = "";
   }
 
