@@ -55,7 +55,7 @@ class Calculator {
     this.operation = undefined;
     this.PreviousOperand = "";
   }
-
+  
   updateDisplay() {
     this.CurrentOperandTextElement.innerText = this.CurrentOperand;
     this.PreviousOperandTextElement.innerText = this.PreviousOperand;
