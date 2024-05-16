@@ -26,7 +26,7 @@ class Calculator {
       this.evaluate();
     }
     this.operation = operation; 
-    this.PreviousOperand = this.CurrentOperand
+    this.PreviousOperand = this.CurrentOperand + this.operation
     this.CurrentOperand = "";
   }
 
